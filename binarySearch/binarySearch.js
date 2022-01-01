@@ -44,7 +44,7 @@ function binarySearch(list = [],target){
 
 let list = [1,2,3,4,5,6,7,8,9,10]
 
-binarySearch(list,7)
+binarySearch(list,8)
 
 /**
  * you must visualize what is going on here
