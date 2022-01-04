@@ -11,7 +11,7 @@ func binarySearch(list []int, target int) bool {
 	var lastElement float64 = float64(len(list) - 1)
 
 	for firstElement <= lastElement {
-		midPoint := math.Ceil((firstElement + lastElement) / 2)
+		midPoint := math.Floor((firstElement + lastElement) / 2)
 
 		if list[int(midPoint)] == target {
 			fmt.Println("the index position of target ", target, "is: ", midPoint)
@@ -29,7 +29,7 @@ func binarySearch(list []int, target int) bool {
 func main() {
 
 	list := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	target := 7
+	target := 6
 
 	fmt.Println(binarySearch(list, target))
 

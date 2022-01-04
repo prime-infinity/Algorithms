@@ -16,7 +16,7 @@ function binarySearch(list = [],target){
      */
 
     while(firstElement <= lastElement ){
-        let midPoint = Math.ceil((firstElement + lastElement)/ 2)
+        let midPoint = Math.floor((firstElement + lastElement)/ 2)
          
         if(list[midPoint] == target){ //if center element is target
             console.log(`target ${target} found at pos ${midPoint}`);
