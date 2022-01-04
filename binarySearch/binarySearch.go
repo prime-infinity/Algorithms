@@ -29,7 +29,7 @@ func binarySearch(list []int, target int) bool {
 func main() {
 
 	list := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	target := 6
+	target := 7
 
 	fmt.Println(binarySearch(list, target))
 
